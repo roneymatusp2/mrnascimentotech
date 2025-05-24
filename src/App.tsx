@@ -14,8 +14,13 @@ import LoginPage from './pages/LoginPage';
 import { ThemeProvider } from './contexts/ThemeContext';
 
 // Initialize Supabase client
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseAnonKey) {
+  throw new Error("Supabase URL and Anon Key are required. Make sure VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY are set in your Netlify environment variables.");
+}
+
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 function App() {
@@ -43,3 +48,4 @@ function App() {
 }
 
 export default App;
+
