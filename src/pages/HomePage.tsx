@@ -348,6 +348,124 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* AI Certifications Showcase */}
+      <section className="py-20 bg-gradient-to-br from-indigo-900 via-purple-900 to-slate-900 relative overflow-hidden">
+        {/* Animated AI Background */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+          <div className="absolute top-40 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
+          <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-2000"></div>
+        </div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-16 reveal">
+            <div className="relative inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 rounded-2xl mb-6 shadow-2xl group">
+              {/* Orbiting AI Particles */}
+              <div className="absolute inset-0 animate-spin" style={{animationDuration: '8s'}}>
+                <div className="absolute -top-2 left-1/2 w-2 h-2 bg-cyan-300 rounded-full transform -translate-x-1/2 animate-ping"></div>
+                <div className="absolute top-1/2 -right-2 w-1 h-1 bg-blue-300 rounded-full transform -translate-y-1/2 animate-ping" style={{animationDelay: '0.5s'}}></div>
+                <div className="absolute -bottom-2 left-1/2 w-1 h-1 bg-purple-300 rounded-full transform -translate-x-1/2 animate-ping" style={{animationDelay: '1s'}}></div>
+                <div className="absolute top-1/2 -left-2 w-2 h-2 bg-pink-300 rounded-full transform -translate-y-1/2 animate-ping" style={{animationDelay: '1.5s'}}></div>
+              </div>
+              
+              {/* Central Brain with AI Glow */}
+              <div className="relative z-10 group-hover:animate-pulse">
+                <Brain className="w-8 h-8 text-white drop-shadow-lg" />
+              </div>
+              
+              {/* AI Energy Ring */}
+              <div className="absolute inset-0 border-2 border-white/20 rounded-2xl animate-pulse"></div>
+            </div>
+            <span className="inline-block px-4 py-2 bg-cyan-400/20 text-cyan-300 rounded-full text-sm font-bold mb-4 backdrop-blur-lg border border-cyan-400/30">
+              FROM AI MASTERY TO GLOBAL IMPACT
+            </span>
+            <h2 className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 mb-6">
+              Artificial Intelligence Excellence
+            </h2>
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
+              Pioneering the future of education through comprehensive AI expertise. From generative intelligence to business applications, discover the certifications that drive innovation in learning and technology.
+            </p>
+          </div>
+
+          {/* AI Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-4xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl font-bold text-cyan-400 mb-2">9</div>
+              <div className="text-slate-300 font-medium">AI Certifications</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl font-bold text-blue-400 mb-2">6</div>
+              <div className="text-slate-300 font-medium">Specialisation Areas</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl font-bold text-purple-400 mb-2">6</div>
+              <div className="text-slate-300 font-medium">Elite Qualifications</div>
+            </div>
+          </div>
+
+          {/* Featured AI Certifications */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {[
+              {
+                title: 'Introduction to Generative AI',
+                category: 'Generative Intelligence',
+                description: 'Foundational mastery of generative artificial intelligence technologies, transforming creativity and innovation across industries.',
+                icon: <Sparkles className="w-6 h-6" />,
+                gradient: 'from-cyan-400 to-blue-500'
+              },
+              {
+                title: 'AI in Education',
+                category: 'Educational Technology',
+                description: 'Revolutionary expertise in implementing AI technologies within educational environments and intelligent learning systems.',
+                icon: <GraduationCap className="w-6 h-6" />,
+                gradient: 'from-blue-500 to-purple-600'
+              },
+              {
+                title: 'MBA in AI & Data Science',
+                category: 'Business Intelligence',
+                description: 'Strategic qualification in artificial intelligence implementation, driving business transformation through intelligent systems.',
+                icon: <Brain className="w-6 h-6" />,
+                gradient: 'from-purple-600 to-pink-600'
+              }
+            ].map((cert, index) => (
+              <div key={index} className="group relative">
+                <div className={`absolute -inset-1 bg-gradient-to-r ${cert.gradient} rounded-3xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500`}></div>
+                <div className="relative bg-slate-800/90 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-slate-700/50 hover:shadow-cyan-500/25 transition-all duration-500 transform group-hover:-translate-y-2">
+                  <div className="flex items-center mb-4">
+                    <div className={`p-3 bg-gradient-to-br ${cert.gradient} rounded-xl mr-3`}>
+                      {cert.icon}
+                    </div>
+                    <span className="text-sm font-medium text-slate-400">{cert.category}</span>
+                  </div>
+                  
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">
+                    {cert.title}
+                  </h3>
+                  
+                  <p className="text-slate-300 leading-relaxed">
+                    {cert.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center">
+            <Link
+              to="/certifications"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 text-white font-bold rounded-2xl transition-all duration-300 shadow-lg hover:shadow-cyan-500/50 transform hover:scale-105 text-lg"
+            >
+              <span>Explore Complete AI Portfolio</span>
+              <ArrowRight className="w-6 h-6" />
+            </Link>
+            <p className="text-slate-400 mt-4 text-sm max-w-2xl mx-auto">
+              Discover how artificial intelligence expertise shapes the future of education, business innovation, and technological advancement.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Projects with 3D Cards */}
       <section className="py-20 bg-slate-50 dark:bg-slate-800 relative">
         {/* Animated particles background */}

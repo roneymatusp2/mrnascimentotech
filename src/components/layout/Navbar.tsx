@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Book, BarChart2, FolderOpen, Home, Mail, Moon, Sun, LogIn, LogOut, User, Sparkles } from 'lucide-react';
+import { Menu, X, Book, BarChart2, FolderOpen, Home, Mail, Moon, Sun, LogIn, LogOut, User, Sparkles, Award } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { useSupabaseClient, useUser } from '@supabase/auth-helpers-react';
 
@@ -58,6 +58,7 @@ const Navbar = () => {
     { path: '/', label: 'Home', icon: <Home className="w-5 h-5" /> },
     { path: '/projects', label: 'Projects', icon: <Book className="w-5 h-5" /> },
     { path: '/resources', label: 'Resources', icon: <FolderOpen className="w-5 h-5" /> },
+    { path: '/certifications', label: 'Certifications', icon: <Award className="w-5 h-5" />, special: true },
     { path: '/contact', label: 'Contact', icon: <Mail className="w-5 h-5" /> },
     { path: '/dashboard', label: 'Dashboard', icon: <BarChart2 className="w-5 h-5" />, authRequired: true },
   ];
@@ -106,16 +107,70 @@ const Navbar = () => {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`flex items-center space-x-1 font-medium transition-all duration-300 ${
+                  className={`relative flex items-center space-x-1 font-medium transition-all duration-300 group ${
+                    link.special 
+                      ? 'relative overflow-hidden'
+                      : ''
+                  } ${
                     isActive(link.path)
                       ? 'text-primary-600 dark:text-primary-400'
                       : 'text-slate-700 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400'
                   }`}
                 >
-                  {link.icon}
-                  <span>{link.label}</span>
+                  {link.special && (
+                    <>
+                      {/* AI Animated Background */}
+                      <div className="absolute -inset-2 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-lg opacity-0 group-hover:opacity-20 transition-opacity duration-500 blur-sm animate-pulse"></div>
+                      
+                      {/* AI Particles */}
+                      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        <div className="absolute top-0 left-0 w-1 h-1 bg-cyan-400 rounded-full animate-ping" style={{animationDelay: '0s'}}></div>
+                        <div className="absolute top-1 right-2 w-1 h-1 bg-blue-400 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
+                        <div className="absolute bottom-0 left-3 w-1 h-1 bg-purple-400 rounded-full animate-ping" style={{animationDelay: '1s'}}></div>
+                        <div className="absolute bottom-1 right-0 w-1 h-1 bg-pink-400 rounded-full animate-ping" style={{animationDelay: '1.5s'}}></div>
+                      </div>
+                      
+                      {/* Neural Network Lines */}
+                      <div className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-700">
+                        <svg className="w-full h-full" viewBox="0 0 100 40">
+                          <path 
+                            d="M10,20 Q30,10 50,20 Q70,30 90,20" 
+                            stroke="url(#aiGradient)" 
+                            strokeWidth="0.5" 
+                            fill="none"
+                            className="animate-pulse"
+                          />
+                          <defs>
+                            <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                              <stop offset="0%" stopColor="#22d3ee" />
+                              <stop offset="50%" stopColor="#3b82f6" />
+                              <stop offset="100%" stopColor="#8b5cf6" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                    </>
+                  )}
+                  
+                  <div className={`relative z-10 flex items-center space-x-1 ${
+                    link.special 
+                      ? 'group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 transition-all duration-500' 
+                      : ''
+                  }`}>
+                    <div className={link.special ? 'group-hover:animate-bounce' : ''}>
+                      {link.icon}
+                    </div>
+                    <span className={link.special ? 'group-hover:font-bold transition-all duration-300' : ''}>
+                      {link.label}
+                    </span>
+                  </div>
+                  
                   {isActive(link.path) && (
-                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 dark:bg-primary-400 mt-0.5"></span>
+                    <span className={`absolute bottom-0 left-0 w-full h-0.5 mt-0.5 ${
+                      link.special 
+                        ? 'bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-pulse'
+                        : 'bg-primary-600 dark:bg-primary-400'
+                    }`}></span>
                   )}
                 </Link>
               ))}
@@ -253,15 +308,38 @@ const Navbar = () => {
                   <Link
                     key={link.path}
                     to={link.path}
-                    className={`flex items-center space-x-3 p-4 rounded-lg transition-all duration-300 text-lg ${
+                    className={`relative flex items-center space-x-3 p-4 rounded-lg transition-all duration-300 text-lg group ${
                       isActive(link.path)
                         ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400'
                         : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
-                    }`}
+                    } ${link.special ? 'overflow-hidden' : ''}`}
                     style={{ transitionDelay: `${i * 50}ms` }}
                   >
-                    {link.icon}
-                    <span>{link.label}</span>
+                    {link.special && (
+                      <>
+                        {/* Mobile AI Background */}
+                        <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-lg opacity-0 group-hover:opacity-10 transition-opacity duration-500 blur-sm"></div>
+                        
+                        {/* Mobile AI Particles */}
+                        <div className="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
+                          <div className="absolute top-2 left-4 w-2 h-2 bg-cyan-400 rounded-full animate-ping"></div>
+                          <div className="absolute top-4 right-6 w-1 h-1 bg-blue-400 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
+                          <div className="absolute bottom-3 left-8 w-1 h-1 bg-purple-400 rounded-full animate-ping" style={{animationDelay: '1s'}}></div>
+                          <div className="absolute bottom-2 right-4 w-2 h-2 bg-pink-400 rounded-full animate-ping" style={{animationDelay: '1.5s'}}></div>
+                        </div>
+                      </>
+                    )}
+                    
+                    <div className={`relative z-10 ${link.special ? 'group-hover:animate-pulse' : ''}`}>
+                      {link.icon}
+                    </div>
+                    <span className={`relative z-10 ${
+                      link.special 
+                        ? 'group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:via-blue-500 group-hover:to-purple-600 group-hover:font-bold transition-all duration-500' 
+                        : ''
+                    }`}>
+                      {link.label}
+                    </span>
                   </Link>
                 ))}
                 
