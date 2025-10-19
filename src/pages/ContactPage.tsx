@@ -118,15 +118,15 @@ const ContactPage = () => {
               icon: <Mail className="w-6 h-6 text-primary-600 dark:text-primary-400" />,
               title: "Email",
               subtitle: "For inquiries and collaborations",
-              content: "contact@mrnascimento.com",
-              link: "mailto:contact@mrnascimento.com",
+              content: "roneymatusp@gmail.com",
+              link: "mailto:roneymatusp@gmail.com",
               delay: "delay-100"
             },
             {
               icon: <MapPin className="w-6 h-6 text-primary-600 dark:text-primary-400" />,
               title: "Location",
               subtitle: "Based in",
-              content: "London, United Kingdom",
+              content: "Brazil, São Paulo, SP",
               link: null,
               delay: "delay-300"
             },

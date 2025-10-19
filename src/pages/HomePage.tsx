@@ -390,15 +390,15 @@ const HomePage = () => {
           {/* AI Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-4xl mx-auto">
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
-              <div className="text-4xl font-bold text-cyan-400 mb-2">9</div>
+              <div className="text-4xl font-bold text-cyan-400 mb-2">12</div>
               <div className="text-slate-300 font-medium">AI Certifications</div>
             </div>
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
-              <div className="text-4xl font-bold text-blue-400 mb-2">6</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">8</div>
               <div className="text-slate-300 font-medium">Specialisation Areas</div>
             </div>
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transform hover:scale-105 transition-all duration-300">
-              <div className="text-4xl font-bold text-purple-400 mb-2">6</div>
+              <div className="text-4xl font-bold text-purple-400 mb-2">5</div>
               <div className="text-slate-300 font-medium">Elite Qualifications</div>
             </div>
           </div>
@@ -544,6 +544,277 @@ const HomePage = () => {
               <span>View All Educational Tools</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Complete Portfolio Showcase - All 17 Applications */}
+      <section className="py-24 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 relative overflow-hidden">
+        {/* Animated cosmic background */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDelay: '4s'}}></div>
+        </div>
+
+        {/* Floating particles */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {[...Array(30)].map((_, i) => (
+            <div 
+              key={i}
+              className="absolute rounded-full bg-white/10 animate-float"
+              style={{
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                width: `${Math.random() * 4 + 2}px`,
+                height: `${Math.random() * 4 + 2}px`,
+                animationDelay: `${Math.random() * 5}s`,
+                animationDuration: `${Math.random() * 20 + 10}s`
+              }}
+            ></div>
+          ))}
+        </div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          {/* Section Header */}
+          <div className="text-center mb-16 reveal">
+            <div className="inline-flex items-center justify-center mb-6">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-2xl blur-lg opacity-75 animate-pulse"></div>
+                <div className="relative bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-700 text-white px-6 py-3 rounded-2xl font-bold text-lg shadow-2xl">
+                  <Sparkles className="inline-block w-5 h-5 mr-2 -mt-1" />
+                  COMPLETE DIGITAL PORTFOLIO
+                </div>
+              </div>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 mb-6 leading-tight">
+              17 Revolutionary Educational Platforms
+            </h2>
+            
+            <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed mb-8">
+              A comprehensive collection of bespoke digital learning tools transforming education across mathematics, sciences, and the humanities. Each platform meticulously crafted to enhance student engagement and academic excellence.
+            </p>
+
+            {/* Impact Statistics */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
+              <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 transform hover:scale-105 transition-all duration-300 hover:bg-white/10">
+                <div className="text-4xl md:text-5xl font-black text-cyan-400 mb-2">17</div>
+                <div className="text-slate-300 font-medium">Live Applications</div>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 transform hover:scale-105 transition-all duration-300 hover:bg-white/10">
+                <div className="text-4xl md:text-5xl font-black text-blue-400 mb-2">8</div>
+                <div className="text-slate-300 font-medium">Subject Areas</div>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 transform hover:scale-105 transition-all duration-300 hover:bg-white/10">
+                <div className="text-4xl md:text-5xl font-black text-purple-400 mb-2">1000+</div>
+                <div className="text-slate-300 font-medium">Resources Integrated</div>
+              </div>
+              <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 transform hover:scale-105 transition-all duration-300 hover:bg-white/10">
+                <div className="text-4xl md:text-5xl font-black text-pink-400 mb-2">100%</div>
+                <div className="text-slate-300 font-medium">Passion Driven</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Applications Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Ratio & Proportions Mastery',
+                url: 'https://ratioandproportions.netlify.app',
+                category: 'Mathematics',
+                description: 'Interactive platform for mastering ratio and proportion concepts through visual problem-solving and real-world applications.',
+                gradient: 'from-blue-500 to-cyan-500',
+                icon: '📐'
+              },
+              {
+                title: 'Equation Rearranging Tool',
+                url: 'https://rearranging.netlify.app',
+                category: 'Mathematics',
+                description: 'Step-by-step equation manipulation tool helping students develop algebraic fluency and problem-solving confidence.',
+                gradient: 'from-purple-500 to-blue-500',
+                icon: '🔢'
+              },
+              {
+                title: 'AI Teachers Professional Hub',
+                url: 'https://ai-teachers.pro',
+                category: 'Professional Development',
+                description: 'Cutting-edge AI-powered platform for educators seeking to integrate artificial intelligence into their teaching practice.',
+                gradient: 'from-cyan-500 to-teal-500',
+                icon: '🤖'
+              },
+              {
+                title: 'Lower Sixth AI HL Programme',
+                url: 'https://lower6aihl.netlify.app',
+                category: 'IB Mathematics',
+                description: 'Comprehensive IB Mathematics AI Higher Level resource hub featuring advanced statistics, calculus, and modelling.',
+                gradient: 'from-indigo-500 to-purple-500',
+                icon: '📊'
+              },
+              {
+                title: 'St Paul\'s Feedback System',
+                url: 'https://stpaulsfeedback.netlify.app',
+                category: 'School Systems',
+                description: 'Streamlined feedback collection and analysis platform designed specifically for St Paul\'s School community.',
+                gradient: 'from-red-500 to-orange-500',
+                icon: '💬'
+              },
+              {
+                title: 'St Paul\'s History Hub',
+                url: 'https://stpaulshistory.netlify.app',
+                category: 'History',
+                description: 'Dynamic history learning platform featuring interactive timelines, source analysis, and comprehensive revision materials.',
+                gradient: 'from-amber-500 to-yellow-500',
+                icon: '📜'
+              },
+              {
+                title: 'Form 3 End-of-Year Revision',
+                url: 'https://form3eoyrevision.netlify.app',
+                category: 'Year Revision',
+                description: 'Tailored revision platform supporting Form 3 students with targeted practice and comprehensive exam preparation.',
+                gradient: 'from-green-500 to-emerald-500',
+                icon: '📚'
+              },
+              {
+                title: 'Form 4 End-of-Year Revision',
+                url: 'https://form4eoyrevision.netlify.app',
+                category: 'Year Revision',
+                description: 'Advanced revision system for Form 4 students featuring interactive questions, detailed solutions, and progress tracking.',
+                gradient: 'from-teal-500 to-cyan-500',
+                icon: '📖'
+              },
+              {
+                title: 'Algebraticamente',
+                url: 'https://algebraticamente.com.br',
+                category: 'Mathematics',
+                description: 'Revolutionary Brazilian mathematics platform with AI-powered tutoring, interactive exercises, and comprehensive curriculum coverage.',
+                gradient: 'from-yellow-500 to-orange-500',
+                icon: '🇧🇷'
+              },
+              {
+                title: 'Lower Sixth AI SL Programme',
+                url: 'https://lower6aisl.netlify.app',
+                category: 'IB Mathematics',
+                description: 'Complete IB Mathematics AI Standard Level hub with interactive visualisations, GDC tutorials, and exam practice.',
+                gradient: 'from-blue-500 to-indigo-500',
+                icon: '📈'
+              },
+              {
+                title: 'Graph Theory Explorer',
+                url: 'https://graphtheory.netlify.app',
+                category: 'Mathematics',
+                description: 'Interactive graph theory visualisation tool for exploring vertices, edges, paths, and complex network relationships.',
+                gradient: 'from-pink-500 to-rose-500',
+                icon: '🕸️'
+              },
+              {
+                title: 'History Blockbuster',
+                url: 'https://historyblockbuster.netlify.app',
+                category: 'History',
+                description: 'Engaging history platform with gamified learning, integrated PDF resources, and comprehensive topic coverage.',
+                gradient: 'from-red-500 to-pink-500',
+                icon: '🎬'
+              },
+              {
+                title: 'Chemistry Blockbusters',
+                url: 'https://chemistryblockbusters.netlify.app',
+                category: 'Chemistry',
+                description: 'Dynamic chemistry learning platform featuring molecular visualisations, reaction simulations, and extensive resource library.',
+                gradient: 'from-green-500 to-lime-500',
+                icon: '⚗️'
+              },
+              {
+                title: 'IB Maths Choice Adviser',
+                url: 'https://ibmathschoice.netlify.app',
+                category: 'IB Guidance',
+                description: 'Intelligent guidance system helping students choose between AA and AI mathematics courses based on strengths and goals.',
+                gradient: 'from-violet-500 to-purple-500',
+                icon: '🎓'
+              },
+              {
+                title: 'Voronoi Diagram Visualiser',
+                url: 'https://voronoidiagram.netlify.app',
+                category: 'Computational Geometry',
+                description: 'Real-time interactive visualisation of Voronoi diagrams, Delaunay triangulation, and computational geometry concepts.',
+                gradient: 'from-cyan-500 to-blue-500',
+                icon: '🔷'
+              },
+              {
+                title: 'Mathematics Practice Timer',
+                url: 'https://mathstimer.netlify.app',
+                category: 'Study Tools',
+                description: 'Customisable practice timer with interval settings and progress tracking for focused revision sessions.',
+                gradient: 'from-orange-500 to-red-500',
+                icon: '⏱️'
+              },
+              {
+                title: 'Magic Triangles Challenge',
+                url: 'https://magictriangles.netlify.app',
+                category: 'Mathematical Games',
+                description: 'Engaging mathematical puzzle game exploring number patterns, triangle properties, and logical thinking.',
+                gradient: 'from-purple-500 to-pink-500',
+                icon: '🔺'
+              }
+            ].map((app, index) => (
+              <a
+                key={index}
+                href={app.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative block"
+              >
+                <div className={`absolute -inset-0.5 bg-gradient-to-r ${app.gradient} rounded-2xl blur-lg opacity-50 group-hover:opacity-100 transition duration-500`}></div>
+                <div className="relative bg-slate-800/90 backdrop-blur-lg rounded-2xl p-6 border border-slate-700/50 shadow-2xl transform transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-cyan-500/25 h-full flex flex-col">
+                  <div className="flex items-start justify-between mb-4">
+                    <span className="text-4xl">{app.icon}</span>
+                    <span className="px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-xs font-medium text-slate-300 border border-white/20">
+                      {app.category}
+                    </span>
+                  </div>
+                  
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors duration-300">
+                    {app.title}
+                  </h3>
+                  
+                  <p className="text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                    {app.description}
+                  </p>
+                  
+                  <div className="flex items-center justify-between pt-4 border-t border-slate-700/50">
+                    <span className="text-xs text-slate-400 font-mono">{app.url.replace('https://', '')}</span>
+                    <ExternalLink className="w-4 h-4 text-cyan-400 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-16">
+            <div className="inline-block bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 max-w-3xl">
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                Experience the Future of Digital Education
+              </h3>
+              <p className="text-slate-300 text-lg mb-6">
+                Each platform represents countless hours of development, pedagogical research, and user testing. Click any application to explore its full capabilities and see educational technology at its finest.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  to="/projects"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 text-white font-bold rounded-xl transition-all duration-300 shadow-lg hover:shadow-cyan-500/50 transform hover:scale-105"
+                >
+                  <span>Explore All Projects</span>
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-lg border border-white/20 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105"
+                >
+                  <span>Discuss Collaboration</span>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

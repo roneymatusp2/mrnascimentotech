@@ -170,6 +170,39 @@ const CertificationsPage = () => {
       featured: true,
       icon: <Globe className="w-6 h-6" />,
     },
+    {
+      id: 10,
+      title: 'Gemini Student University',
+      description: 'Advanced certification in Google\'s Gemini AI platform, mastering multimodal AI capabilities, prompt engineering, and cutting-edge generative AI applications.',
+      category: 'Generative AI',
+      issuer: 'Google',
+      date: '2025',
+      imageUrl: 'https://nyc.cloud.appwrite.io/v1/storage/buckets/68f533e40018a30ca589/files/68f533f40014bc4054a1/view?project=680e68b10024125b5c0b&mode=admin',
+      featured: true,
+      icon: <Sparkles className="w-6 h-6" />,
+    },
+    {
+      id: 11,
+      title: 'Gemini Educator Certification',
+      description: 'Specialised certification in leveraging Google Gemini AI for educational transformation, pedagogical innovation, and intelligent teaching methodologies.',
+      category: 'Educational AI',
+      issuer: 'Google for Education',
+      date: '2025',
+      imageUrl: 'https://nyc.cloud.appwrite.io/v1/storage/buckets/68f533e40018a30ca589/files/68f5342d0003d7fc932e/view?project=680e68b10024125b5c0b&mode=admin',
+      featured: true,
+      icon: <Lightbulb className="w-6 h-6" />,
+    },
+    {
+      id: 12,
+      title: 'Mastering AI - Alura',
+      description: 'Comprehensive mastery of artificial intelligence technologies, machine learning algorithms, and practical AI implementation through intensive Brazilian tech education.',
+      category: 'AI Mastery',
+      issuer: 'Alura',
+      date: '2025',
+      imageUrl: 'https://nyc.cloud.appwrite.io/v1/storage/buckets/68f533e40018a30ca589/files/68f5345d0014cc6e0c37/view?project=680e68b10024125b5c0b&mode=admin',
+      featured: true,
+      icon: <Brain className="w-6 h-6" />,
+    },
   ];
 
   return (
@@ -319,11 +352,11 @@ const CertificationsPage = () => {
         {/* Statistics */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 max-w-4xl mx-auto">
           <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-cyan-400/20 text-center transform hover:scale-105 transition-all duration-500 hover:shadow-cyan-400/20 hover:shadow-2xl">
-            <div className="text-5xl font-bold text-cyan-400 mb-3">9</div>
+            <div className="text-5xl font-bold text-cyan-400 mb-3">12</div>
             <div className="text-slate-300 font-medium">AI Certifications</div>
           </div>
           <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 text-center transform hover:scale-105 transition-all duration-500 hover:shadow-blue-400/20 hover:shadow-2xl">
-            <div className="text-5xl font-bold text-blue-400 mb-3">6</div>
+            <div className="text-5xl font-bold text-blue-400 mb-3">8</div>
             <div className="text-slate-300 font-medium">AI Specialisations</div>
           </div>
           <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-purple-400/20 text-center transform hover:scale-105 transition-all duration-500 hover:shadow-purple-400/20 hover:shadow-2xl">
