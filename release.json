@@ -1,0 +1,240 @@
+{
+ "release": {
+  "name": "sites/mrnascimentotech/releases/1788406674892000",
+  "version": {
+   "name": "sites/mrnascimentotech/versions/9431cf3727c8d48f",
+   "status": "FINALIZED",
+   "config": {
+    "headers": [
+     {
+      "headers": {
+       "Access-Control-Allow-Origin": "*"
+      },
+      "glob": "/@(cv-tmp-m1.pdf|roney-lima-do-nascimento-square.jpg|roney-lima-do-nascimento-headshot-white.jpg)"
+     },
+     {
+      "headers": {
+       "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "glob": "**/*.@(js|css)"
+     },
+     {
+      "headers": {
+       "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "glob": "**/*.@(jpg|jpeg|gif|png|svg|webp|ico)"
+     }
+    ],
+    "rewrites": [
+     {
+      "glob": "**",
+      "path": "/index.html"
+     }
+    ]
+   },
+   "labels": {
+    "deployment-tool": "cli-firebase"
+   },
+   "createTime": "2026-09-03T03:37:54.157813Z",
+   "createUser": {
+    "email": "roneymatusp@gmail.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocKQL7X_-4vhiOlrYK2365RFVxUq7MqWe7bB65kxu2KpzZwrUdroew"
+   },
+   "finalizeTime": "2026-09-03T03:37:55.090643Z",
+   "finalizeUser": {
+    "email": "roneymatusp@gmail.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocKQL7X_-4vhiOlrYK2365RFVxUq7MqWe7bB65kxu2KpzZwrUdroew"
+   },
+   "fileCount": "36",
+   "versionBytes": "3057206"
+  },
+  "type": "DEPLOY",
+  "releaseTime": "2026-09-03T03:37:54.892Z",
+  "releaseUser": {
+   "email": "roneymatusp@gmail.com",
+   "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocKQL7X_-4vhiOlrYK2365RFVxUq7MqWe7bB65kxu2KpzZwrUdroew"
+  }
+ },
+ "files": [
+  {
+   "path": "/046f0b53f75230d33b52d462855b0b66.txt",
+   "hash": "4b7ae3c87c5bb5fb0282e96c66c35ba37f45bf6f90e1bcbe1171bf46a204b884",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/__/firebase/init.js",
+   "hash": "4f98a096bc08e001ae481b739300192d0919b2dd5a18082927cee6d3ee667fb8",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/__/firebase/init.json",
+   "hash": "21368eb986707826bb6f4f655db8cdee0250ac3b38eb8cd20d20b714c72a8bbd",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/about.html",
+   "hash": "86e49698779df411cc90b6e5696b74aaf28b11e34b4f6f8ba6cb768c01e98f76",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/AboutPage-BjzYNT1F.js",
+   "hash": "0f1bd5842b7fd368f7bc09babd3b0fd9488c06d26ff5bc4e5fb186ae18191a28",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/BooksPage-DFg2KFR7.js",
+   "hash": "6dd9ae12610e53140eb6f664c88870d1536eb4dff7388250360c2bb12b0534fe",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/ContactPage-BKVLIU6N.js",
+   "hash": "9f0b277d20b17aa41286bc12610d8d4ccfe9c4d0002387d5eacf52eb742bd9a1",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/NotFoundPage-D64LJ8tR.js",
+   "hash": "8f831d1e5d19c0515a0a328672a3d4f08873422fc5508ab159ab15eabe610f24",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/PlatformsPage-CFiBI3l_.js",
+   "hash": "c4127d305616e2965049f1c3f6077f82e5bfc3576673a8219bebb358f5a72d9d",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/ResearchPage-CflgDpOh.js",
+   "hash": "026000f19db4937eae29248ce495a1d72c7800ffc3762fb39156d611c0046e86",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/SobrePage-Chx3z3qk.js",
+   "hash": "19e785072b0b233f9222626de398592f255caa60bb29f702833c3d46e683417d",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/SpeakingPage-Dz_ukPiA.js",
+   "hash": "df1be62c401cb49e158bf6ce881fac2705cb6fbaff31cf2a8b7c1cfb6f54d1f4",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/WritingPage-D_RtHF3L.js",
+   "hash": "9b4175217beac8b7ff8bbe11d70821e8d013b4f88fbffa254ad4b67ac95cda70",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/index-BewyJDjZ.js",
+   "hash": "7db16139d30c7121812e72a6d6738b076fc92efe9166264c3292202f6f993702",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/index-D17E5OP4.css",
+   "hash": "556e8c79783234bc9b86ff41b7097c38c7ee4cbf4e431021a7a064ad095ba5c7",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/motion-Aasg_Aa0.js",
+   "hash": "b4ee01fe54c9925187595613ec13cc6c63a194b722526486a9cea20b7a9ade1c",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/assets/react-CSb6idBe.js",
+   "hash": "28d2a9bff15f4003f7781f3fdddeb007d607736f919f2a1e061fe1d278426d08",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/covers/generative-ai-for-teachers.jpg",
+   "hash": "559893e1a2d9e32e6fb9aff8323bde5a257c5a7bcb02bc7c8408ca19820772ce",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/covers/ia-generativa-para-professores.jpg",
+   "hash": "5777ecf966af55ba376cbd6663eea944b11bf7f0e2397cb59c102a28a67ac69e",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/cv-tmp-m1.pdf",
+   "hash": "f160e50e4002f4db6344dfa9d6e20129f00b0c72e704d3d2e4e9d692904d3543",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/favicon.svg",
+   "hash": "bddda7444a520c074dde4951ea0392aa51b32268ef30193f259d48b992a278ba",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/googleee99d6ddfcf55b0b.html",
+   "hash": "450ddfc1b29884841e04d2d9cc993a22e2ffdbc91f7e623ee7cf21385e99f2a7",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/index.html",
+   "hash": "f5f14d4562ee6b0e4a86cb13b58b644f543cb4250117103937c655023cccc649",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/platforms/ai-teachers.webp",
+   "hash": "300f8644c9a2d91e1070aa183870099ba92a387d9410b14d734743bdd59cd450",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/platforms/mrnascimento-academy.webp",
+   "hash": "662ed049f6959a7a730d6b8ffa5bba21d9d0eee454fe849cb8fdadc47aaf7389",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/robots.txt",
+   "hash": "a731475795c7a4dfe6b2ad91ed20f16279cb53c3c06f92c87f1a20077e6d32f7",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-headshot-black.jpg",
+   "hash": "110a73272e39c835e5570234b3ea1778b178ae060de965ab384e4f1cd74d6f4c",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-headshot-cutout.webp",
+   "hash": "356b71069502e4601f5679a722180835660315486381b3bc95faab5c89c01a07",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-headshot-dark.webp",
+   "hash": "3d13c280d26c4db7d43e6d87ea7845e709d6ad0ac91c54fc75eb347fdded1fc6",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-headshot-transparent.png",
+   "hash": "0535eb093c9e984ce60dcca31c37ba5c180bfc0d20ed5719e0196378599b2145",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-headshot-white.jpg",
+   "hash": "cd59aecebfd939412574653a63d3884d2f55987c011510510618dcd1ef5096ac",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-square-600.webp",
+   "hash": "9d613364f6d882a26ba2f018a1ee2bacfa735427333c68512681a19857916736",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento-square.jpg",
+   "hash": "c0705d5edad5ccaae7aec52f2e6473fd75feae464f95ebf1fbeff0a455d5f28f",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/roney-lima-do-nascimento.jpg",
+   "hash": "50a4948f3f1da6c36e79e4682fcfea5f9eabf0017b49949576c98cb3680eb76c",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/sitemap.xml",
+   "hash": "49f9959868c8d091d539fdc56c4bac3ed9c278c7c502fd2297754798193c0a94",
+   "status": "ACTIVE"
+  },
+  {
+   "path": "/speaking.html",
+   "hash": "edf56e912ff8ce5102a523f3668f0391611a16160a93aeab0677905b3e238829",
+   "status": "ACTIVE"
+  }
+ ]
+}
