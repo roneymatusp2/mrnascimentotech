@@ -1,0 +1,20 @@
+{
+  "baselineCommit": "0ef5a45",
+  "contentAsOf": "2026-10-14",
+  "release": "2fa6c6b54c70",
+  "entry": "/assets/index-BewyJDjZ-u2fa6c6b54c70.js",
+  "modules": [
+    "AboutPage-BjzYNT1F-u2fa6c6b54c70.js",
+    "BooksPage-DFg2KFR7-u2fa6c6b54c70.js",
+    "ContactPage-BKVLIU6N-u2fa6c6b54c70.js",
+    "NotFoundPage-D64LJ8tR-u2fa6c6b54c70.js",
+    "PlatformsPage-CFiBI3l_-u2fa6c6b54c70.js",
+    "ResearchPage-CflgDpOh-u2fa6c6b54c70.js",
+    "SobrePage-Chx3z3qk-u2fa6c6b54c70.js",
+    "SpeakingPage-Dz_ukPiA-u2fa6c6b54c70.js",
+    "WritingPage-D_RtHF3L-u2fa6c6b54c70.js",
+    "index-BewyJDjZ-u2fa6c6b54c70.js",
+    "motion-Aasg_Aa0.js",
+    "react-CSb6idBe.js"
+  ]
+}

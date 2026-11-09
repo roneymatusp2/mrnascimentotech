@@ -1,0 +1,71 @@
+{
+  "AboutPage-BjzYNT1F.js": {
+    "variables": {
+      "S": "[{\"when\": \"SEP–OCT 2026\", \"text\": \"Presented at DataMinitech\", \"title\": \"Presentation completed.\", \"upcoming\": false},...([{when: '9 OCT 2026', text: 'Book launch: Inteligência Artificial Generativa para Professores, Livraria da Vila', href: '/books'}, {when: 'SEP–OCT 2026', text: 'Four AI training sessions at Colégio São Luís with teachers from early years, primary and secondary education'}, {when: '2026 · TO 14 OCT', text: '18 original articles on education, AI and responsibility in national and international publications', href: '/writing'}, {when: '1–2 OCT 2026', text: 'Speaker, MiningTech South America 2026, São Paulo', href: l?.href, title: l?.title}, {when: '28–30 SEP 2026', text: 'Online keynote, ICAILY 2026', href: a?.href ?? A.href, title: a?.title}, {when: 'AUG 2026', text: 'PhD qualifying exam passed, IME-USP'}])]"
+    },
+    "strings": {
+      "Now": "Recent work"
+    }
+  },
+  "SobrePage-Chx3z3qk.js": {
+    "variables": {
+      "k": "{'Cape Town, South Africa': 'Cidade do Cabo, África do Sul', 'São Paulo, Brazil': 'São Paulo, Brasil', 'Ágora Tech Park, Joinville, Brazil': 'Ágora Tech Park, Joinville, Brasil', 'Online': 'Online', 'Online (conference hosted in Cape Town, South Africa)': 'Online · conferência sediada na Cidade do Cabo, África do Sul', 'Colégio São Luís, São Paulo, Brazil': 'Colégio São Luís, São Paulo, Brasil'}",
+      "ee": "[{\"key\": \"dataminitech-2026\", \"label\": \"SET–OUT 2026 · REALIZADO\", \"title\": \"Apresentação no DataMinitech\", \"text\": \"Participação realizada entre setembro e outubro de 2026.\", \"upcoming\": false},...([{key: 'livro-outubro', label: 'Livro · 9 OUT 2026', title: 'Lançamento na Livraria da Vila', text: 'Em 9 de outubro, foi realizado o lançamento de Inteligência Artificial Generativa para Professores, publicado pela Editora Dialética.', href: '/books', linkLabel: 'Conheça o livro'}, {key: 'formacoes-sao-luis', label: 'Formação docente · SET–OUT 2026', title: 'Quatro formações em IA', text: 'Encontros no Colégio São Luís com professores da Educação Infantil e dos ensinos Fundamental e Médio. Formação docente com atenção à avaliação das respostas da IA, ao contexto da aula e à autonomia dos professores.'}, {key: 'imprensa-2026', label: 'Imprensa · ATÉ 14 OUT 2026', title: '18 artigos originais em 2026', text: 'Textos sobre educação, IA e responsabilidade em veículos nacionais e internacionais, incluindo ISTE+ASCD, HEPI, Folha de S.Paulo e The Fulcrum.', href: '/writing', linkLabel: 'Artigos e republicações'}, o ? {key: o.id, label: 'Palestra online · 28–30 SET 2026', title: 'ICAILY 2026', text: 'Participação online como palestrante principal na conferência realizada de 28 a 30 de setembro de 2026.', href: o.href, linkLabel: D.linkLabel} : void 0, d ? {key: d.id, label: 'Palestra · 1–2 OUT 2026', title: d.event, text: 'Participação em São Paulo, em 1 e 2 de outubro de 2026. ' + (y[d.id] ?? ''), href: d.href, linkLabel: 'Página do palestrante'} : void 0, {key: 'qualificacao', label: 'Doutorado · AGO 2026', title: 'Exame de qualificação aprovado', text: 'Agosto de 2026. Matemática Pura no IME-USP, com pesquisa sobre polinômios ciclotômicos ternários planos, orientação do Prof. Raul Antonio Ferraz e bolsa CAPES.', href: f?.href, linkLabel: 'Currículo Lattes'}])]"
+    },
+    "strings": {
+      "Roney Lima do Nascimento: autor de Inteligência Artificial Generativa para Professores e Generative AI for Teachers, matemático e doutorando no IME-USP, desenvolvedor de soluções de IA no Colégio São Luís, pesquisador em IA aplicada e palestrante principal do ICAILY 2026.": "Roney Lima do Nascimento: autor, matemático e doutorando no IME-USP, desenvolvedor de soluções de IA, pesquisador em IA aplicada e formador de professores. Lançamento na Livraria da Vila, quatro formações no Colégio São Luís e 18 artigos originais publicados em 2026 até 14 de outubro.",
+      " (Editora Dialética, 2026), e escreve sobre inteligência artificial e educação para Folha de S.Paulo, EUobserver, GovInsider, Business Day e HEPI, entre outros.": " (Editora Dialética, 2026), lançado na Livraria da Vila em 9 de outubro. Até 14 de outubro de 2026, publicou 18 artigos originais sobre educação, IA e responsabilidade em veículos nacionais e internacionais, incluindo ISTE+ASCD, HEPI, Folha de S.Paulo e The Fulcrum.",
+      "É doutorando em Matemática Pura no Instituto de Matemática e Estatística da Universidade de São Paulo, orientado pelo Prof. Raul Antonio Ferraz e bolsista CAPES, com pesquisa sobre polinômios ciclotômicos ternários planos. Trabalha como desenvolvedor de soluções de IA e consultor independente, construindo agentes de IA para empresas e conduzindo formações em IA para escolas e organizações, e leciona Matemática do IB Diploma Programme e uma eletiva de IA generativa aplicada no Colégio São Luís, em São Paulo.": "É doutorando em Matemática Pura no Instituto de Matemática e Estatística da Universidade de São Paulo, orientado pelo Prof. Raul Antonio Ferraz e bolsista CAPES, com pesquisa sobre polinômios ciclotômicos ternários planos. Trabalha como desenvolvedor de soluções de IA e consultor independente e leciona Matemática do IB Diploma Programme e uma eletiva de IA generativa aplicada no Colégio São Luís, em São Paulo. A formação docente é sua prioridade: avaliar as respostas da IA, decidir se ajudam naquela aula e garantir tempo, apoio e autonomia aos professores, com participação nas decisões sobre IA em suas escolas.",
+      "Suas plataformas de IA para educação alcançam mais de quinze mil educadores por mês. É palestrante principal do ICAILY 2026, na Cidade do Cabo, parecerista da revista": "Suas plataformas de IA para educação alcançam mais de quinze mil educadores por mês. Participou online como palestrante principal do ICAILY 2026 e realizou quatro formações em IA no Colégio São Luís, em setembro e outubro, com professores da Educação Infantil e dos ensinos Fundamental e Médio. É parecerista da revista",
+      " (Springer) e membro do comitê de programa do EDM 2026. Antes do doutorado, mestrado em Ensino de Matemática com dissertação sobre uma sequência didática de frações no ensino fundamental II (IME-USP, 2018). Capítulo aceito no volume": " (Springer) e membro do comitê de programa do EDM 2026. Antes do doutorado, concluiu o mestrado em Ensino de Matemática com dissertação sobre uma sequência didática de frações no ensino fundamental II (IME-USP, 2018). Em breve:",
+      "Global Digital Citizenship": "novos lançamentos",
+      " (Bloomsbury, 2027).": ". Os detalhes serão anunciados depois.",
+      "Agora": "Recentemente",
+      "Próximas palestras e um marco recente.": "Livros, formação docente e participação pública.",
+      "No palco em 2026.": "Palestras e formações em 2026."
+    }
+  },
+  "ResearchPage-CflgDpOh.js": {
+    "strings": {
+      "Chapter forthcoming in ": "Coming soon: ",
+      "Global Digital Citizenship": "new publications",
+      " (Bloomsbury, 2027).": ". Details will be announced later."
+    }
+  },
+  "SpeakingPage-Dz_ukPiA.js": {
+    "variables": {
+      "y": "'Keynotes, panels, teacher training and leadership briefings on AI in education, governance and evaluation. Teacher development focuses on what happens after AI responds: checking its answers, judging their value for a lesson and supporting teachers’ autonomy and participation in school decisions. English and Portuguese; based in São Paulo and available to travel.'",
+      "S": "'Speaking and teacher training on AI in education, responsibility and evaluation. Recent work includes four AI training sessions at Colégio São Luís and an online keynote at ICAILY 2026. Talks, the 2026 calendar and a speaker kit with bios, headshots and a fact sheet.'"
+    },
+    "strings": {
+      "50 words": "Short bio",
+      "150 words": "Full bio",
+      "On stage in 2026.": "Talks and training in 2026.",
+      "Keynotes, workshops, technical and policy talks, with slides written per audience.": "Keynotes, workshops and technical and policy talks adapted to each audience. Teacher training gives educators time and support to evaluate AI responses, judge their usefulness for a lesson and take part in decisions about AI at their schools."
+    }
+  },
+  "BooksPage-DFg2KFR7.js": {
+    "variables": {
+      "y": "'A practical guide for teachers who want to use generative AI with confidence and rigour: lesson design, assessment integrity, feedback at scale and the judgement calls that no tool makes for you. The Portuguese edition was launched at Livraria da Vila on 9 October 2026.'"
+    }
+  },
+  "WritingPage-D_RtHF3L.js": {
+    "variables": {
+      "E": "`${c.article} original press articles in 2026, in English, Portuguese and Spanish. Translations and republications are grouped with each original. ${g(c.preprint, \"preprint\", \"preprints\")}, ${g(c.book, \"book\", \"books\")} and ${g(c.podcast, \"podcast interview\", \"podcast interviews\")} are listed separately. Updated through 14 October 2026; newest first.`"
+    },
+    "replacements": [
+      {
+        "from": "l.includes(s.language)",
+        "to": "(s.languages??[s.language]).some(language=>l.includes(language))"
+      },
+      {
+        "from": "children:k[a.language]",
+        "to": "children:(a.languages??[a.language]).map(language=>k[language]??language).join(\" / \")"
+      },
+      {
+        "from": "key:a.id,href:",
+        "to": "key:a.id,details:(a.notes||a.links.length>1)?e.jsxs(\"div\",{className:\"flex flex-col gap-3\",children:[a.notes?e.jsx(\"p\",{className:\"text-[14px] leading-[1.55] text-ink-2\",children:a.notes}):null,a.links.length>1?e.jsx(\"div\",{className:\"flex flex-wrap gap-x-6 gap-y-3\",children:a.links.slice(1).map(link=>e.jsxs(\"a\",{href:link.href,target:\"_blank\",rel:\"noopener noreferrer\",className:\"link-underline text-[14px]\",children:[link.label,\" \",e.jsx(y,{size:14})]},link.href))}):null]}):null,href:"
+      }
+    ]
+  }
+}

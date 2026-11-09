@@ -1,9 +1,9 @@
 [build]
-  publish = "dist"
+  publish = "public"
   command = "npm run build"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22"
 
 [[redirects]]
   from = "/*"
@@ -13,7 +13,7 @@
 [dev]
   command = "npm run dev"
   port = 5173
-  publish = "dist"
+  publish = "public"
 
 [[headers]]
   for = "/*"

@@ -1,0 +1,475 @@
+[
+  {
+    "id": "book-genai-teachers-en",
+    "kind": "book",
+    "title": "Generative AI for Teachers: A Practical Guide to Educational Technology",
+    "venue": "Amazon",
+    "dateLabel": "2025",
+    "sortDate": "2025-06-01",
+    "language": "English",
+    "notes": "Two active English listings.",
+    "identifiers": [
+      "ISBN 9798288900648",
+      "ISBN 9798288673320"
+    ],
+    "links": [
+      {
+        "label": "Amazon (ISBN 9798288900648)",
+        "href": "https://www.amazon.com/Generative-Teachers-Practical-Educational-Technology/dp/B0FF2Y3B6V"
+      },
+      {
+        "label": "Amazon (ISBN 9798288673320)",
+        "href": "https://www.amazon.com/Generative-Teachers-Practical-Educational-Technology/dp/B0FF3L24H6"
+      }
+    ]
+  },
+  {
+    "id": "book-ia-professores-pt",
+    "kind": "book",
+    "title": "Inteligência Artificial Generativa para Professores: um guia prático para tecnologia educacional",
+    "venue": "Editora Dialética",
+    "dateLabel": "2026",
+    "sortDate": "2026-06-01",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "identifiers": [
+      "ISBN 9786527097686"
+    ],
+    "links": [
+      {
+        "label": "Editora Dialética",
+        "href": "https://loja.editoradialetica.com/humanidades/inteligencia-artificial-generativa-para-professores-um-guia-pratico-para-tecnologia-educacional"
+      },
+      {
+        "label": "Kindle",
+        "href": "https://www.amazon.com.br/Intelig%C3%AAncia-Artificial-Generativa-para-Professores-ebook/dp/B0FF9NBJNT"
+      }
+    ],
+    "notes": "Book launch held at Livraria da Vila on 9 October 2026."
+  },
+  {
+    "id": "preprint-mathematical-voice",
+    "kind": "preprint",
+    "title": "Building Mathematical Voice: Representational Fluency and Task Progression in AI-Assisted LaTeX Authoring Among Secondary Students",
+    "venue": "ResearchGate",
+    "dateLabel": "February 2026",
+    "sortDate": "2026-02-01",
+    "language": "English",
+    "links": [
+      {
+        "label": "ResearchGate",
+        "href": "https://www.researchgate.net/publication/400616840"
+      }
+    ]
+  },
+  {
+    "id": "preprint-frustration-fluency",
+    "kind": "preprint",
+    "title": "From Frustration to Fluency: Prior Familiarity, Cognitive Load, and Digital Equity in AI-Assisted LaTeX Authoring Among Secondary Mathematics Students",
+    "venue": "ResearchGate",
+    "dateLabel": "February 2026",
+    "sortDate": "2026-02-15",
+    "language": "English",
+    "links": [
+      {
+        "label": "ResearchGate",
+        "href": "https://www.researchgate.net/publication/400637306"
+      }
+    ]
+  },
+  {
+    "id": "preprint-carry-absorption",
+    "kind": "preprint",
+    "title": "Carry Absorption, Boundary-Pair Reduction, and Exact Anti-Persistence for the Accelerated Odd Map",
+    "venue": "Zenodo",
+    "dateLabel": "9 July 2026",
+    "sortDate": "2026-07-09",
+    "language": "English",
+    "notes": "Version 2.",
+    "identifiers": [
+      "DOI 10.5281/zenodo.21285669"
+    ],
+    "links": [
+      {
+        "label": "Zenodo",
+        "href": "https://zenodo.org/records/21285669"
+      },
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.5281/zenodo.21285669"
+      }
+    ]
+  },
+  {
+    "id": "preprint-answer-leakage",
+    "kind": "preprint",
+    "title": "When Execution Feedback Reveals the Expected Output: A Forensic Study of Answer Leakage in Agentic Code Repair",
+    "venue": "Zenodo",
+    "dateLabel": "10 July 2026",
+    "sortDate": "2026-07-10",
+    "language": "English",
+    "identifiers": [
+      "DOI 10.5281/zenodo.21286873"
+    ],
+    "links": [
+      {
+        "label": "Zenodo",
+        "href": "https://zenodo.org/records/21286873"
+      },
+      {
+        "label": "DOI",
+        "href": "https://doi.org/10.5281/zenodo.21286873"
+      }
+    ]
+  },
+  {
+    "id": "article-ascd-50-teachers",
+    "kind": "article",
+    "title": "What I Learned from Training 50 Teachers in AI Literacy",
+    "venue": "ISTE+ASCD / Educational Leadership",
+    "dateLabel": "8 April 2026",
+    "sortDate": "2026-04-08",
+    "language": "English",
+    "place": "United States",
+    "notes": "Blog published on 8 April 2026. Print version: “I Trained 50 Teachers in AI Literacy”, Educational Leadership, May 2026.",
+    "links": [
+      {
+        "label": "ISTE+ASCD",
+        "href": "https://www.ascd.org/blogs/what-i-learned-from-training-50-teachers-in-ai-literacy"
+      }
+    ]
+  },
+  {
+    "id": "article-eschool-shared-ai",
+    "kind": "article",
+    "title": "How districts can build a shared AI structure",
+    "venue": "eSchool News",
+    "dateLabel": "2 June 2026",
+    "sortDate": "2026-06-02",
+    "language": "English",
+    "place": "United States",
+    "links": [
+      {
+        "label": "eSchool News",
+        "href": "https://www.eschoolnews.com/digital-learning/2026/06/02/how-districts-can-build-a-shared-ai-structure/"
+      }
+    ]
+  },
+  {
+    "id": "article-business-day-sa",
+    "kind": "article",
+    "title": "The question SA schools are not yet asking about AI",
+    "venue": "Business Day",
+    "dateLabel": "9 June 2026",
+    "sortDate": "2026-06-09",
+    "language": "English",
+    "place": "South Africa",
+    "links": [
+      {
+        "label": "Business Day",
+        "href": "https://www.businessday.co.za/opinion/2026-06-09-roney-lima-do-nascimento-the-question-sa-schools-are-not-yet-asking-about-ai/"
+      }
+    ]
+  },
+  {
+    "id": "article-la-prensa-panama",
+    "kind": "article",
+    "title": "La decisión sobre IA que los colegios están tomando en silencio",
+    "venue": "La Prensa",
+    "dateLabel": "14 June 2026",
+    "sortDate": "2026-06-14",
+    "language": "Spanish",
+    "place": "Panama",
+    "links": [
+      {
+        "label": "La Prensa",
+        "href": "https://www.prensa.com/opinion/la-decision-sobre-ia-que-los-colegios-estan-tomando-en-silencio/"
+      }
+    ]
+  },
+  {
+    "id": "article-el-pais-uruguay",
+    "kind": "article",
+    "title": "Los liceos y la IA",
+    "venue": "El País",
+    "dateLabel": "22 June 2026",
+    "sortDate": "2026-06-22",
+    "language": "Spanish",
+    "place": "Uruguay",
+    "links": [
+      {
+        "label": "El País",
+        "href": "https://www.elpais.com.uy/opinion/ecos/los-liceos-y-la-ia-17-6"
+      }
+    ]
+  },
+  {
+    "id": "article-hepi-2027-cohort",
+    "kind": "article",
+    "title": "The cohort arriving in 2027 will not reason like the one in front of you. Are universities ready?",
+    "venue": "HEPI",
+    "dateLabel": "4 August 2026",
+    "sortDate": "2026-08-04",
+    "language": "English",
+    "place": "United Kingdom",
+    "links": [
+      {
+        "label": "HEPI",
+        "href": "https://www.hepi.ac.uk/2026/08/04/the-cohort-arriving-in-2027-will-not-reason-like-the-one-in-front-of-you-are-universities-ready/"
+      }
+    ]
+  },
+  {
+    "id": "article-congresso-em-foco",
+    "kind": "article",
+    "title": "Regular a IA sem capacidade de avaliação é legislar no escuro",
+    "venue": "Congresso em Foco",
+    "dateLabel": "17 August 2026",
+    "sortDate": "2026-08-17",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "notes": "Published 17 August 2026, 16:00.",
+    "links": [
+      {
+        "label": "Congresso em Foco",
+        "href": "https://www.congressoemfoco.com.br/artigo/121329/regular-a-ia-sem-capacidade-de-avaliacao-e-legislar-no-escuro"
+      }
+    ]
+  },
+  {
+    "id": "article-nexo-chatbots",
+    "kind": "article",
+    "title": "Cinco testes para chatbots eleitorais em 2026",
+    "venue": "Nexo Políticas Públicas",
+    "dateLabel": "19 August 2026",
+    "sortDate": "2026-08-19",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "links": [
+      {
+        "label": "Nexo",
+        "href": "https://pp.nexojornal.com.br/ponto-de-vista/2026/08/19/cinco-testes-para-chatbots-eleitorais-em-2026/"
+      }
+    ]
+  },
+  {
+    "id": "article-rh-pra-voce-produtividade",
+    "kind": "article",
+    "title": "Produtividade da IA na jornada de trabalho",
+    "venue": "RH Pra Você",
+    "dateLabel": "25 August 2026",
+    "sortDate": "2026-08-25",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "links": [
+      {
+        "label": "RH Pra Você",
+        "href": "https://rhpravoce.com.br/colab/produtividade-da-ia-na-jornada-de-trabalho"
+      }
+    ]
+  },
+  {
+    "id": "article-congresso-em-foco-regua",
+    "kind": "article",
+    "title": "Sem uma régua comum, cada plataforma escolhe o teste em que passa",
+    "venue": "Congresso em Foco",
+    "dateLabel": "26 August 2026",
+    "sortDate": "2026-08-26",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "links": [
+      {
+        "label": "Congresso em Foco",
+        "href": "https://www.congressoemfoco.com.br/artigo/121693/sem-uma-regua-comum-cada-plataforma-escolhe-o-teste-em-que-passa"
+      }
+    ]
+  },
+  {
+    "id": "article-folha-pergunta-errada",
+    "kind": "article",
+    "title": "A escola ainda faz a pergunta errada sobre inteligência artificial",
+    "venue": "Folha de S.Paulo",
+    "dateLabel": "26 August 2026",
+    "sortDate": "2026-08-26",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "notes": "Opinião / Tendências-Debates. Print edition 27 August 2026.",
+    "links": [
+      {
+        "label": "Folha de S.Paulo",
+        "href": "https://www1.folha.uol.com.br/opiniao/2026/08/a-escola-ainda-faz-a-pergunta-errada-sobre-inteligencia-artificial.shtml"
+      }
+    ]
+  },
+  {
+    "id": "article-euobserver-eu-languages",
+    "kind": "article",
+    "title": "AI chatbots need to work in all EU languages, not just English",
+    "venue": "EUobserver",
+    "dateLabel": "29 August 2026",
+    "sortDate": "2026-08-29",
+    "language": "English",
+    "place": "Belgium",
+    "links": [
+      {
+        "label": "EUobserver",
+        "href": "https://euobserver.com/233310/ai-chatbots-need-to-work-in-all-eu-languages-not-just-english/"
+      },
+      {
+        "label": "UnionPress — author page",
+        "href": "https://unionpress.eu/author/roney-lima-do-nascimento/"
+      }
+    ],
+    "notes": "Also published by UnionPress as “EU AI rules must guarantee chatbot performance in all official languages”."
+  },
+  {
+    "id": "article-govinsider-review-queue",
+    "kind": "article",
+    "title": "The human-review queue is the next digital divide",
+    "venue": "GovInsider",
+    "dateLabel": "30 August 2026",
+    "sortDate": "2026-08-30",
+    "language": "English",
+    "place": "Singapore",
+    "links": [
+      {
+        "label": "GovInsider",
+        "href": "https://govinsider.asia/intl-en/article/the-human-review-queue-is-the-next-digital-divide"
+      }
+    ]
+  },
+  {
+    "id": "article-ai-journal-verification-debt",
+    "kind": "article",
+    "title": "Verification debt is the hidden cost of enterprise AI",
+    "venue": "The AI Journal",
+    "dateLabel": "2 September 2026",
+    "sortDate": "2026-09-02",
+    "language": "English",
+    "links": [
+      {
+        "label": "The AI Journal",
+        "href": "https://aijourn.com/verification-debt-is-the-hidden-cost-of-enterprise-ai/"
+      }
+    ]
+  },
+  {
+    "id": "article-congresso-em-foco-professor",
+    "kind": "article",
+    "title": "Proteger o professor não é proibir que ele seja ajudado",
+    "venue": "Congresso em Foco",
+    "dateLabel": "16 September 2026",
+    "sortDate": "2026-09-16",
+    "language": "Portuguese",
+    "place": "Brazil",
+    "links": [
+      {
+        "label": "Congresso em Foco",
+        "href": "https://www.congressoemfoco.com.br/artigo/122323/proteger-o-professor-nao-e-proibir-que-ele-seja-ajudado"
+      }
+    ]
+  },
+  {
+    "id": "article-fulcrum-political-chatbots",
+    "kind": "article",
+    "title": "Political Chatbots Should Not Be Allowed To Set the Pace",
+    "venue": "The Fulcrum",
+    "dateLabel": "25 September 2026",
+    "sortDate": "2026-09-25",
+    "language": "English",
+    "place": "United States",
+    "notes": "Also published by Latino News Network on 21 September 2026. A second The Fulcrum page, dated 29 September 2026, presents the same article as “AI Chatbots Set the Pace in Political Persuasion”. These versions count as one original article.",
+    "links": [
+      {
+        "label": "The Fulcrum — 25 September",
+        "href": "https://thefulcrum.us/media-technology/political-chatbots"
+      },
+      {
+        "label": "Latino News Network — 21 September",
+        "href": "https://latinonewsnetwork.com/economy/political-chatbots-should-not-be-allowed-to-set-the-pace/"
+      },
+      {
+        "label": "The Fulcrum — alternate page, 29 September",
+        "href": "https://thefulcrum.us/media-technology/ai-political-persuasion"
+      }
+    ]
+  },
+  {
+    "id": "article-latinoamerica21-digital-statistics",
+    "kind": "article",
+    "title": "El ciudadano que no aparece en las estadísticas digitales",
+    "venue": "Latinoamérica21",
+    "dateLabel": "2 October 2026",
+    "sortDate": "2026-10-02",
+    "language": "Spanish",
+    "notes": "Published in Spanish, English and Portuguese on 2 October 2026. Republished by O Tempo (6 October), Confidencial (9 October) and TalCual (10 October). Translations and republications count as one original article.",
+    "links": [
+      {
+        "label": "Latinoamérica21 — Español",
+        "href": "https://latinoamerica21.com/es/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales/"
+      },
+      {
+        "label": "Latinoamérica21 — English",
+        "href": "https://latinoamerica21.com/en/the-citizen-who-does-not-appear-in-digital-statistics/"
+      },
+      {
+        "label": "Latinoamérica21 — Português",
+        "href": "https://latinoamerica21.com/pt-br/o-cidadao-que-nao-aparece-nas-estatisticas-digitais/"
+      },
+      {
+        "label": "O Tempo — 6 October",
+        "href": "https://www.otempo.com.br/opiniao/latinoamerica21/2026/10/6/o-cidadao-que-nao-aparece-nas-estatisticas-digitais.html"
+      },
+      {
+        "label": "Confidencial — 9 October",
+        "href": "https://confidencial.digital/opinion/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales/"
+      },
+      {
+        "label": "TalCual — 10 October",
+        "href": "https://talcualdigital.com/opinion/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales-por-roney-lima-do-nascimento/"
+      }
+    ],
+    "languages": [
+      "Spanish",
+      "English",
+      "Portuguese"
+    ]
+  },
+  {
+    "id": "article-hepi-minimum-ai",
+    "kind": "article",
+    "title": "Every student needs a minimum AI requirement",
+    "venue": "HEPI",
+    "dateLabel": "9 October 2026",
+    "sortDate": "2026-10-09",
+    "language": "English",
+    "place": "United Kingdom",
+    "notes": "Also indexed by EdCentral, which provides a summary and links to the original HEPI article.",
+    "links": [
+      {
+        "label": "HEPI",
+        "href": "https://www.hepi.ac.uk/2026/10/09/every-student-needs-a-minimum-ai-requirement/"
+      },
+      {
+        "label": "EdCentral — summary / aggregator",
+        "href": "https://edcentral.uk/higher-education/45562-every-student-needs-a-minimum-ai-requirement"
+      }
+    ]
+  },
+  {
+    "id": "podcast-barkley-trust",
+    "kind": "podcast",
+    "title": "Building Teachers’ Trust for AI Adoption",
+    "venue": "Steve Barkley Ponders Out Loud",
+    "dateLabel": "2026",
+    "sortDate": "2026-03-01",
+    "language": "English",
+    "notes": "Interview.",
+    "links": [
+      {
+        "label": "Listen",
+        "href": "https://barkleypd.com/blog/podcast-building-teachers-trust-for-ai-adoption/"
+      }
+    ]
+  }
+]

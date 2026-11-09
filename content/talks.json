@@ -1,0 +1,58 @@
+[
+  {
+    "id": "what-genai-already-does",
+    "title": "AI in education: what generative AI already does today",
+    "format": "Keynote",
+    "length": "40–60 min",
+    "deliveredAt": "Delivered online at ICAILY 2026, 28–30 September",
+    "abstract": "The urgent conversation is no longer what artificial intelligence might one day do for education. It is what these systems are already doing in real classrooms, with real teachers and real institutional consequences: where the gains are genuine, where they remain unproven and what responsible adoption actually demands."
+  },
+  {
+    "id": "teacher-development-ai",
+    "title": "What happens after AI responds",
+    "format": "Teacher training",
+    "length": "Tailored to the school",
+    "deliveredAt": "Four AI training sessions at Colégio São Luís, September–October 2026",
+    "abstract": "How do teachers check an AI answer and decide whether it helps with this lesson? Teacher development needs time to learn, support to try things, professional autonomy and a voice in school decisions about AI. Work with teachers from early years, primary and secondary education connects these questions to classroom practice."
+  },
+  {
+    "id": "scaling-without-licences",
+    "title": "Scaling AI in schools without buying licences",
+    "format": "Keynote or workshop",
+    "length": "45–90 min",
+    "deliveredAt": "Delivered as Day 1 closing keynote, Summit IA Brasil 2026",
+    "abstract": "Schools do not scale artificial intelligence by distributing licences. They scale it when teachers have confidence, repertoire, criteria and autonomy. Built on training 50 teachers across institutions, and on what changed when the institutional stance changed."
+  },
+  {
+    "id": "trustworthy-agents",
+    "title": "Trustworthy AI agents in high-stakes operations",
+    "format": "Talk or panel",
+    "length": "30–45 min",
+    "deliveredAt": "Delivered at MiningTech South America 2026",
+    "abstract": "Tool permissions, data grounding, exception handling, audit trails and human supervision. How to tell an agent that works from one that only appears to, and what evidence to demand before an agent touches a production process."
+  },
+  {
+    "id": "benchmark-lying",
+    "title": "Evaluating AI when the benchmark is lying to you",
+    "format": "Technical talk",
+    "length": "30–45 min",
+    "deliveredAt": "Based on published research",
+    "abstract": "Hidden information channels inflate apparent performance. Drawing on a forensic study of answer leakage in agentic code repair, this talk covers restricted feedback, same-pool comparison and immutable provenance as practical controls for anyone buying or building AI systems."
+  },
+  {
+    "id": "assessment-after-genai",
+    "title": "Assessment after generative AI",
+    "format": "Talk or staff training",
+    "length": "45–90 min",
+    "deliveredAt": "The argument behind the Folha de S.Paulo piece",
+    "abstract": "A detector can flag text; it cannot establish understanding, judgement, authorship or the ability to revise. What each discipline should count as evidence of learning, and how version histories, oral defence and commentary on errors make thinking visible again."
+  },
+  {
+    "id": "who-waits",
+    "title": "Who waits, and for how long",
+    "format": "Policy talk",
+    "length": "30–45 min",
+    "deliveredAt": "The argument behind the GovInsider and EUobserver pieces",
+    "abstract": "When an AI service says a human reviews ambiguous cases, someone is queuing. Public institutions should measure who waits, how long and what happens meanwhile. Also covers multilingual evaluation: a system that works in English and fails in another language can still look compliant in aggregate."
+  }
+]

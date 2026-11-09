@@ -1,0 +1,208 @@
+{
+  "checkedOn": "2026-10-14",
+  "scope": "Metadata verification for website publication register. User-supplied records are retained where automated access is unavailable.",
+  "countingRule": "18 original articles; translations, print editions, republications and alternate URLs remain links within the original record. Books, preprints and podcast are separate kinds.",
+  "countsNotPublished": "The supplied totals of 17 outlets, 9 countries and 13 republications are internally inconsistent and have not been used.",
+  "articles": [
+    {
+      "id": "article-ascd-50-teachers",
+      "url": "https://www.ascd.org/blogs/what-i-learned-from-training-50-teachers-in-ai-literacy",
+      "date": "2026-04-08",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-eschool-shared-ai",
+      "url": "https://www.eschoolnews.com/digital-learning/2026/06/02/how-districts-can-build-a-shared-ai-structure/",
+      "date": "2026-06-02",
+      "dateStatus": "user_supplied",
+      "notes": "Publisher blocked automated web reading with HTTP 403; date retained from user record and URL."
+    },
+    {
+      "id": "article-business-day-sa",
+      "url": "https://www.businessday.co.za/opinion/2026-06-09-roney-lima-do-nascimento-the-question-sa-schools-are-not-yet-asking-about-ai/",
+      "date": "2026-06-09",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-la-prensa-panama",
+      "url": "https://www.prensa.com/opinion/la-decision-sobre-ia-que-los-colegios-estan-tomando-en-silencio/",
+      "date": "2026-06-14",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Publisher page displays 14 June 2026 at 8:45 PM local time; replaces 15 June in supplied list."
+    },
+    {
+      "id": "article-el-pais-uruguay",
+      "url": "https://www.elpais.com.uy/opinion/ecos/los-liceos-y-la-ia-17-6",
+      "date": "2026-06-22",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Publisher page displays 22/06/2026, 04:00. Slug 17-6 does not represent the displayed publication date."
+    },
+    {
+      "id": "article-hepi-2027-cohort",
+      "url": "https://www.hepi.ac.uk/2026/08/04/the-cohort-arriving-in-2027-will-not-reason-like-the-one-in-front-of-you-are-universities-ready/",
+      "date": "2026-08-04",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-congresso-em-foco",
+      "url": "https://www.congressoemfoco.com.br/artigo/121329/regular-a-ia-sem-capacidade-de-avaliacao-e-legislar-no-escuro",
+      "date": "2026-08-17",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-nexo-chatbots",
+      "url": "https://pp.nexojornal.com.br/ponto-de-vista/2026/08/19/cinco-testes-para-chatbots-eleitorais-em-2026/",
+      "date": "2026-08-19",
+      "dateStatus": "user_supplied",
+      "notes": "Publisher link resolves, but web extraction returned no body; date retained from user record and URL."
+    },
+    {
+      "id": "article-rh-pra-voce-produtividade",
+      "url": "https://rhpravoce.com.br/colab/produtividade-da-ia-na-jornada-de-trabalho",
+      "date": "2026-08-25",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-congresso-em-foco-regua",
+      "url": "https://www.congressoemfoco.com.br/artigo/121693/sem-uma-regua-comum-cada-plataforma-escolhe-o-teste-em-que-passa",
+      "date": "2026-08-26",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-folha-pergunta-errada",
+      "url": "https://www1.folha.uol.com.br/opiniao/2026/08/a-escola-ainda-faz-a-pergunta-errada-sobre-inteligencia-artificial.shtml",
+      "date": "2026-08-26",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-euobserver-eu-languages",
+      "url": "https://euobserver.com/233310/ai-chatbots-need-to-work-in-all-eu-languages-not-just-english/",
+      "date": "2026-08-29",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-govinsider-review-queue",
+      "url": "https://govinsider.asia/intl-en/article/the-human-review-queue-is-the-next-digital-divide",
+      "date": "2026-08-30",
+      "dateStatus": "user_supplied",
+      "notes": "Publisher article opened, but date was not captured; retained user-supplied date."
+    },
+    {
+      "id": "article-ai-journal-verification-debt",
+      "url": "https://aijourn.com/verification-debt-is-the-hidden-cost-of-enterprise-ai/",
+      "date": "2026-09-02",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Publisher page explicitly displays 2 September 2026."
+    },
+    {
+      "id": "article-congresso-em-foco-professor",
+      "url": "https://www.congressoemfoco.com.br/artigo/122323/proteger-o-professor-nao-e-proibir-que-ele-seja-ajudado",
+      "date": "2026-09-16",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-fulcrum-political-chatbots",
+      "url": "https://thefulcrum.us/media-technology/political-chatbots",
+      "date": "2026-09-25",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "The Fulcrum page displays 25 September; alternate page displays 29 September. Latino News Network metadata dates its version 21 September. Retained one article record."
+    },
+    {
+      "id": "article-latinoamerica21-digital-statistics",
+      "url": "https://latinoamerica21.com/es/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales/",
+      "date": "2026-10-02",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    },
+    {
+      "id": "article-hepi-minimum-ai",
+      "url": "https://www.hepi.ac.uk/2026/10/09/every-student-needs-a-minimum-ai-requirement/",
+      "date": "2026-10-09",
+      "dateStatus": "verified_on_publisher_page",
+      "notes": "Date read on publisher page; no article body reproduced."
+    }
+  ],
+  "versions": [
+    {
+      "url": "https://latinonewsnetwork.com/economy/political-chatbots-should-not-be-allowed-to-set-the-pace/",
+      "date": "2026-09-21",
+      "status": "verified_publisher_metadata",
+      "evidence": "article:published_time and JSON-LD datePublished: 2026-09-21T21:00:00+00:00; modified 25 September."
+    },
+    {
+      "url": "https://thefulcrum.us/media-technology/ai-political-persuasion",
+      "date": "2026-09-29",
+      "status": "verified_on_publisher_page",
+      "evidence": "Same visible headline and same article as the 25 September page; alternate metadata title."
+    },
+    {
+      "url": "https://latinoamerica21.com/en/the-citizen-who-does-not-appear-in-digital-statistics/",
+      "date": "2026-10-02",
+      "status": "verified_publisher_metadata"
+    },
+    {
+      "url": "https://latinoamerica21.com/pt-br/o-cidadao-que-nao-aparece-nas-estatisticas-digitais/",
+      "date": "2026-10-02",
+      "status": "verified_publisher_metadata"
+    },
+    {
+      "url": "https://www.otempo.com.br/opiniao/latinoamerica21/2026/10/6/o-cidadao-que-nao-aparece-nas-estatisticas-digitais.html",
+      "date": "2026-10-06",
+      "status": "verified_publisher_metadata",
+      "evidence": "JSON-LD datePublished: 2026-10-06T15:50:18.815-03:00."
+    },
+    {
+      "url": "https://confidencial.digital/opinion/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales/",
+      "date": "2026-10-09",
+      "status": "verified_on_publisher_page",
+      "evidence": "Page displays date and a note crediting original publication at Latinoamérica21."
+    },
+    {
+      "url": "https://talcualdigital.com/opinion/el-ciudadano-que-no-aparece-en-las-estadisticas-digitales-por-roney-lima-do-nascimento/",
+      "date": "2026-10-10",
+      "status": "user_supplied",
+      "evidence": "HTTP 403 prevented automated verification."
+    },
+    {
+      "url": "https://unionpress.eu/author/roney-lima-do-nascimento/",
+      "status": "user_supplied",
+      "evidence": "Host could not be resolved during verification. Author-page link and alternate title supplied by user; no date asserted."
+    },
+    {
+      "url": "https://edcentral.uk/higher-education/45562-every-student-needs-a-minimum-ai-requirement",
+      "status": "verified_aggregator",
+      "evidence": "Page contains a short summary and a Read Publication link to HEPI. Labeled as aggregation, not a full republication."
+    }
+  ],
+  "otherRecords": [
+    {
+      "id": "book-ia-professores-pt",
+      "status": "user_supplied",
+      "evidence": "User confirms launch at Livraria da Vila on 9 October 2026; publication date and purchase links preserved."
+    },
+    {
+      "id": "article-ascd-50-teachers",
+      "edition": "Educational Leadership, May 2026",
+      "status": "user_supplied",
+      "evidence": "Print version title supplied by user; no new direct print-version URL asserted."
+    },
+    {
+      "id": "article-folha-pergunta-errada",
+      "edition": "27 August 2026 print edition",
+      "status": "user_supplied"
+    }
+  ],
+  "excluded": [
+    "Xultr aggregation: not included as an article or republication.",
+    "THE Campus: no supplied public publication record."
+  ]
+}

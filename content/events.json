@@ -1,0 +1,70 @@
+[
+  {
+    "id": "csl-ai-training-2026",
+    "status": "past",
+    "format": "training",
+    "event": "Four AI training sessions · Colégio São Luís",
+    "role": "Teacher development",
+    "title": "Checking AI answers, classroom relevance and teacher autonomy",
+    "dateLabel": "September–October 2026",
+    "sortDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "place": "São Paulo, Brazil",
+    "notes": "Four sessions completed by 14 October with teachers from early years, primary and secondary education. The displayed date is the period, not an individual session date."
+  },
+  {
+    "id": "icaily-2026",
+    "status": "past",
+    "format": "keynote",
+    "event": "ICAILY 2026 – 2nd International Conference on Artificial Intelligence & Generative AI",
+    "role": "Keynote delivered online",
+    "title": "AI in Education: What Generative AI Already Does Today",
+    "dateLabel": "28–30 September 2026",
+    "sortDate": "2026-09-28",
+    "place": "Online",
+    "href": "https://icaily.com/",
+    "organizer": "ICAILY International Foundation for Advanced Research, AI, and Innovations",
+    "endDate": "2026-09-30"
+  },
+  {
+    "id": "miningtech-sa-2026",
+    "status": "past",
+    "format": "talk",
+    "event": "MiningTech South America 2026",
+    "role": "Invited speaker, talk and panel",
+    "title": "Trustworthy AI agents in high-stakes operations",
+    "dateLabel": "1–2 October 2026",
+    "sortDate": "2026-10-01",
+    "place": "São Paulo, Brazil",
+    "href": "https://www.miningtechsouthamerica.com/speakers/roney-lima-do-nascimento",
+    "organizer": "Spire Events",
+    "affiliation": "PhD candidate, IME, University of São Paulo",
+    "notes": "Applied generative AI and LLM systems; current research on trustworthy evaluation, provenance and hidden information leakage in agentic systems.",
+    "endDate": "2026-10-02"
+  },
+  {
+    "id": "summit-ia-brasil-2026",
+    "status": "past",
+    "format": "keynote",
+    "event": "Summit de Inteligência Artificial do Brasil 2026",
+    "role": "Keynote closing Day 1, “IA & Eu” track",
+    "title": "IA, Eu e Educação",
+    "dateLabel": "18–20 June 2026",
+    "sortDate": "2026-06-18",
+    "place": "Ágora Tech Park, Joinville, Brazil",
+    "organizer": "Q-Assist and Instituto NEXUS"
+  },
+  {
+    "id": "barkley-podcast-2026",
+    "status": "past",
+    "format": "podcast",
+    "event": "Steve Barkley Ponders Out Loud",
+    "role": "Interview",
+    "title": "Building Teachers’ Trust for AI Adoption",
+    "dateLabel": "2026",
+    "sortDate": "2026-03-01",
+    "place": "Podcast",
+    "href": "https://barkleypd.com/blog/podcast-building-teachers-trust-for-ai-adoption/",
+    "organizer": "Barkley PD"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "domain": "https://mrnascimento.com/",
+  "firebaseProject": "mrnascimentotech",
+  "verifiedAt": "2026-10-15T02:52:32.918832+00:00",
+  "editorialCutoff": "2026-10-14",
+  "appRelease": "2fa6c6b54c70",
+  "publicFilesVerified": 34,
+  "publicFilesIdentical": 34,
+  "browserChecks": 22,
+  "browserFailures": [],
+  "localBranch": "update/site-20261014"
+}

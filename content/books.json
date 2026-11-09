@@ -1,0 +1,45 @@
+[
+  {
+    "id": "en",
+    "lang": "English",
+    "meta": "English · Amazon · 2025",
+    "title": "Generative AI for Teachers: A Practical Guide to Educational Technology",
+    "cover": "/covers/generative-ai-for-teachers.jpg",
+    "isbns": [
+      "ISBN 979-8-2886-7332-0 paperback",
+      "ISBN 979-8-2889-0064-8 hardback"
+    ],
+    "links": [
+      {
+        "label": "Paperback",
+        "href": "https://www.amazon.com/dp/B0FF3L24H6"
+      },
+      {
+        "label": "Hardback",
+        "href": "https://www.amazon.com/dp/B0FF2Y3B6V"
+      }
+    ],
+    "blurb": "A practical guide for educators who want to use generative artificial intelligence with confidence and rigour: lesson design, assessment integrity, feedback at scale and the judgement calls that no tool makes for you."
+  },
+  {
+    "id": "pt",
+    "lang": "Português",
+    "meta": "Português · Editora Dialética · 2026",
+    "title": "Inteligência Artificial Generativa para Professores: um guia prático para tecnologia educacional",
+    "cover": "/covers/ia-generativa-para-professores.jpg",
+    "isbns": [
+      "ISBN 978-65-270-9768-6"
+    ],
+    "links": [
+      {
+        "label": "Editora Dialética",
+        "href": "https://loja.editoradialetica.com/humanidades/inteligencia-artificial-generativa-para-professores-um-guia-pratico-para-tecnologia-educacional"
+      },
+      {
+        "label": "Kindle",
+        "href": "https://www.amazon.com.br/dp/B0FF9NBJNT"
+      }
+    ],
+    "blurb": "Guia prático para professores, escolas e programas de formação docente que querem usar inteligência artificial generativa com critério: desenho de aulas, integridade da avaliação, devolutivas em escala e as decisões que nenhuma ferramenta toma no lugar do professor. O lançamento na Livraria da Vila aconteceu em 9 de outubro de 2026."
+  }
+]
